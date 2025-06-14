@@ -1,7 +1,7 @@
 # Symbolic Unconditioned Classical Piano Generation
-This project was created by [Charlie Ngo](https://github.com/c4ngo) and [Samantha Phan](https://github.com/sphan07) on May/30 - June/3 for CSE 153: Machine Learning for Music. A lot of it was done through pair programming on one computer <br> <br>
+This project was created by [Charlie Ngo](https://github.com/c4ngo) and [Samantha Phan](https://github.com/sphan07) on May/30 - June/3 for CSE 153: Machine Learning for Music. A lot of it was done through pair programming on one computer. <br> 
 
-[Here's the link to the github page that has the audio linked built in](https://sphan07.github.io/cse153_task1/)
+[Here's the link to the github page that has the audio links built in](https://sphan07.github.io/cse153_task1/)
 
 Our task was symbolic unconditioned music generation. We generate music by predicting the next REMI token given the previous ones. Techniques used were REMI tokenization, enhancing our LSTM-based neural network model through additional layers, sampling technqiues such as top-p and top k and music functionality functions in order to promote music structure. <br>
 
