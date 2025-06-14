@@ -70,7 +70,8 @@ Our REMI Tokenization from earlier was taken into consideration in the creation 
   * The function monitors end-of-sequence tokens to gracefully terminate generation.
 
 Here is an example of some of the audio that was produced:
-<audio controls> <source src="example1.wav" type="audio/wav"> </audio>
+[🔊 Listen to example1](./example1.wav)
+
 
 
 ## Analysis
