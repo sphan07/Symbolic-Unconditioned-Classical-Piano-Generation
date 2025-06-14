@@ -71,7 +71,7 @@ Our REMI Tokenization from earlier was taken into consideration in the creation 
 
 ## Audio Demo
 Here is an example of some of the audio that was produced:
-[🔊 Download to listen to example1](./example1.wav) or Check out the [go to page with audio built in](https://sphan07.github.io/cse153_task1/#audio-demo)
+[🔊 Download to listen to example1](./example1.wav) or [Checkout the page that has the audio built in](https://sphan07.github.io/cse153_task1/#audio-demo)
 
 <audio controls>
   <source src="example1.wav" type="audio/wav">
