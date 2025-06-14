@@ -107,6 +107,8 @@ Here's an example of the same LSTM but with a diff dataset:
 
   As we can hear it sounds pretty awful and it is a good start to understand what not to strive for. This was used in our analysis against our model to prove that we have a "better" model.<br>
 
-  Task1analysis.ipynb<br>
+  ## Task1analysis.ipynb<br>
+  This was used in order to understand our dataset more. [Within the ipynb you'll graphs potraying the dataset statisitcs](./task1_analysis.ipynb)
+
 
   
