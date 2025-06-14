@@ -64,10 +64,13 @@ Our REMI Tokenization from earlier was taken into consideration in the creation 
    - Near Phrase Ending: favors elements like chord changes/rests
 
 ### Sampling with Music Structure <br>
-  We wanted to adjust the token samplining probabilities
-
+  We wanted to adjust the token samplinng probabilities as that was the key in creating good sounding music. Overall, it predicts next token logits modified from the musicality functions we created explained above.
+  * Top-k and nucleus (top-p) sampling methods ensure balance between creativity and coherence.
+  * Bar positions and phrase boundaries are tracked to reset rhythmic counters and maintain metrical consistency.
+  * The function monitors end-of-sequence tokens to gracefully terminate generation.
 
 Here is an example of some of the audio that was produced:
+<audio controls> <source src="example1.mid" type="audio/mid"> </audio>
 
 
 ## Analysis
