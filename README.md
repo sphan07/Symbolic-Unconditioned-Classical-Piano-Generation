@@ -1,5 +1,5 @@
 # Symbolic Unconditioned Classical Piano Generation
-This project was created by [Charlie Ngo](https://github.com/c4ngo) and Samantha Phan on May/30 - June/3 for CSE 153: Machine Learning for Music. A lot of it was done through pair programming on one computer <br> <br>
+This project was created by [Charlie Ngo](https://github.com/c4ngo) and [Samantha Phan](https://github.com/sphan07) on May/30 - June/3 for CSE 153: Machine Learning for Music. A lot of it was done through pair programming on one computer <br> <br>
 
 Our task was symbolic uncondition music generation. We use techniques such as REMI tokenization, enhancing our LSTM model through additional layers, sampling technqiues such as top-p and top k and music functionality functions in order to promote music structure. <br>
 
@@ -71,7 +71,7 @@ Our REMI Tokenization from earlier was taken into consideration in the creation 
 
 ## Audio Demo
 Here is an example of some of the audio that was produced:
-[🔊 Download to listen to example1](./example1.wav) or [Checkout the page that has the audio built in](https://sphan07.github.io/cse153_task1/#audio-demo)
+[🔊 Download to listen to example1](./music_files/example1.wav) or [Checkout the page that has the audio built in](https://sphan07.github.io/cse153_task1/#audio-demo)
 
 <audio controls>
   <source src="example1.wav" type="audio/wav">
@@ -85,7 +85,7 @@ We wanted to compare the results of our LSTM to some baseline models to portay t
 A basic Second-Order Markov and a basic LSTM to train our model in order to obtain a baseline we can compare too. <br>
 - Audio Output:
  [Markov:]<br>
- [🔊 Download to listen to example of a midi file output generated](./0.wav) or [Checkout the page that has an example audio built in](https://sphan07.github.io/cse153_task1/#analysis)
+ [🔊 Download to listen to example of a midi file output generated](./music_files/0.wav) or [Checkout the page that has an example audio built in](https://sphan07.github.io/cse153_task1/#analysis)
 
  <audio controls>
   <source src="0.wav" type="audio/wav">
@@ -93,13 +93,13 @@ A basic Second-Order Markov and a basic LSTM to train our model in order to obta
 
 
  [LSTM:] <br>
- [🔊 Download to listen to example1](./rnn.wav) or [Checkout the page that has the audio built in](https://sphan07.github.io/cse153_task1/#analysis)
+ [🔊 Download to listen to example1](./music_files/rnn.wav) or [Checkout the page that has the audio built in](https://sphan07.github.io/cse153_task1/#analysis)
   <audio controls>
   <source src="rnn.wav" type="audio/wav">
 </audio>
 
 Here's an example of the same LSTM but with a diff dataset: 
- [🔊 Download to listen to example1](./badexamplemultiinstrument.wav) or [Checkout the page that has the audio built in](https://sphan07.github.io/cse153_task1/#analysis)
+ [🔊 Download to listen to example1](./music_files/badexamplemultiinstrument.wav) or [Checkout the page that has the audio built in](https://sphan07.github.io/cse153_task1/#analysis)
 
   <audio controls>
   <source src="badexamplemultiinstrument.wav" type="audio/wav">
