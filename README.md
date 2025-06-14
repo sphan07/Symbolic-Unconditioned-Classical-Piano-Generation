@@ -82,19 +82,18 @@ Here is an example of some of the audio that was produced:
 
 
 ## Analysis
-Basline.ipynb: <br>
+### Basline.ipynb: <br>
 We wanted to compare the results of our LSTM to some baseline models to portay the improvement.<br>
 A basic Second-Order Markov and a basic LSTM to train our model in order to obtain a baseline we can compare too. <br>
-- Audio Output:
- [Markov:]<br>
+Audio Output:
+ Markov:<br>
  [🔊 Download to listen to example of a midi file output generated](./music_files/0.wav) or [Checkout the page that has an example audio built in](https://sphan07.github.io/cse153_task1/#analysis)
 
  <audio controls>
   <source src="0.wav" type="audio/wav">
 </audio>
 
-
- [LSTM:] <br>
+ LSTM: <br>
  [🔊 Download to listen to example1](./music_files/rnn.wav) or [Checkout the page that has the audio built in](https://sphan07.github.io/cse153_task1/#analysis)
   <audio controls>
   <source src="rnn.wav" type="audio/wav">
@@ -109,7 +108,7 @@ Here's an example of the same LSTM but with a diff dataset:
 
   As we can hear it sounds pretty awful and it is a good start to understand what not to strive for. This was used in our analysis against our model to prove that we have a "better" model.<br>
 
-  ## Task1analysis.ipynb<br>
+  ### Task1analysis.ipynb<br>
   This was used in order to understand our dataset more. [Within the ipynb you'll see many graphs potraying the dataset statisitcs](./task1_analysis.ipynb)
 
 
