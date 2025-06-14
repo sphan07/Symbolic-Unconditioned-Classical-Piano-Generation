@@ -85,7 +85,7 @@ We wanted to compare the results of our LSTM to some baseline models to portay t
 A basic Second-Order Markov and a basic LSTM to train our model in order to obtain a baseline we can compare too. <br>
 - Audio Output:
  [Markov:]<br>
- [🔊 Download to listen to folders of midi file output](./music from baseline code) or [Checkout the page that has an example audio built in](https://sphan07.github.io/cse153_task1/#analysis)
+ [🔊 Download to listen to example of a midi file output generated](./0.wav) or [Checkout the page that has an example audio built in](https://sphan07.github.io/cse153_task1/#analysis)
 
  <audio controls>
   <source src="0.wav" type="audio/wav">
