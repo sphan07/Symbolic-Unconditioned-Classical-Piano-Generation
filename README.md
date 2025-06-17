@@ -6,7 +6,7 @@ This project was created by [Charlie Ngo](https://github.com/c4ngo) and [Samanth
 Our task was symbolic unconditioned music generation. We generate music by predicting the next REMI token given the previous ones. Techniques used were REMI tokenization, enhancing our LSTM-based neural network model through additional layers, sampling technqiues such as top-p and top k and music functionality functions in order to promote music structure. <br>
 
 ## Dataset<br>
-Why Maestro? We used Maestro due to realizing that classical music was better for musical training. It took trial and error, as we wanted to create edm music. This did not turn out well because of our limited computation resources in addition to pubic datasets avaliable.<br>
+Why Maestro? We used Maestro due to realizing that classical music was better for musical training. It took trial and error, as we wanted to create edm music. This did not turn out well because of our limited computation resources in addition to public datasets avaliable.<br>
 
 Our dataset was split into two data subsets, train and test in order to be used for our model.<br>
 
